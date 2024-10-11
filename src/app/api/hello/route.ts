@@ -3,7 +3,7 @@ export async function POST(req: Request) {
 
 	return new Response(
 		JSON.stringify({
-			message: `Hello, ${body.name}, this is a public POST endpoint!`,
+			message: `Hola, ${body.name}, this is a public POST endpoint!`,
 		}),
 		{
 			status: 200,
